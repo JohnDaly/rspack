@@ -15,7 +15,7 @@ __webpack_require__.es(_something__WEBPACK_IMPORTED_MODULE_0__, __webpack_export
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
-  red: function() { return red; }
+  red: () => (red)
 });
  const red = 'red';
 }),
@@ -23,7 +23,7 @@ __webpack_require__.d(__webpack_exports__, {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
-  blue: function() { return blue; }
+  blue: () => (blue)
 });
  const blue = 'blue';
 }),
@@ -51,7 +51,7 @@ __webpack_require__.es(_c__WEBPACK_IMPORTED_MODULE_2__, __webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
-  result: function() { return result; }
+  result: () => (result)
 });
  const result = 'ssss';
 }),
@@ -74,7 +74,7 @@ _export__WEBPACK_IMPORTED_MODULE_0__.Something;
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
-  Something: function() { return Something; }
+  Something: () => (Something)
 });
  class Something {
 }
@@ -83,7 +83,7 @@ __webpack_require__.d(__webpack_exports__, {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
-  Colors: function() { return _colors_index__WEBPACK_IMPORTED_MODULE_0__; }
+  Colors: () => (_colors_index__WEBPACK_IMPORTED_MODULE_0__)
 });
 /* harmony import */var _colors_index__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../colors/index */"./colors/index.js");
 /* harmony import */var _Something__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Something */"./something/Something.js");

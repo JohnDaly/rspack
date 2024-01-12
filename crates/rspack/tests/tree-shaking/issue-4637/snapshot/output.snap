@@ -44,7 +44,7 @@ var __WEBPACK_DEFAULT_EXPORT__ = ConsoleExporterWeb;
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
-  _: function() { return _create_class; }
+  _: () => (_create_class)
 });
 function _defineProperties(target, props) {
     for(var i = 0; i < props.length; i++){

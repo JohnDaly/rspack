@@ -7,7 +7,7 @@ source: crates/rspack_testing/src/run_fixture.rs
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
-  a: function() { return a; }
+  a: () => (a)
 });
  const a = {
     a: ''
@@ -17,7 +17,7 @@ __webpack_require__.d(__webpack_exports__, {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
-  b: function() { return b; }
+  b: () => (b)
 });
  const b = {
     b: ""
@@ -27,8 +27,8 @@ __webpack_require__.d(__webpack_exports__, {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
-  a: function() { return _a__WEBPACK_IMPORTED_MODULE_0__.a; },
-  b: function() { return _b__WEBPACK_IMPORTED_MODULE_1__.b; }
+  a: () => (_a__WEBPACK_IMPORTED_MODULE_0__.a),
+  b: () => (_b__WEBPACK_IMPORTED_MODULE_1__.b)
 });
 /* harmony import */var _a__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./a */"./a.js");
 /* harmony import */var _b__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./b */"./b.js");
@@ -53,7 +53,7 @@ console.log(_lib__WEBPACK_IMPORTED_MODULE_0__.getDocPermissionTextSendMe);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
-  getDocPermissionTextSendMe: function() { return getDocPermissionTextSendMe; }
+  getDocPermissionTextSendMe: () => (getDocPermissionTextSendMe)
 });
 /* harmony import */var _enum_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./enum.js */"./enum.js");
 

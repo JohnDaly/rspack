@@ -7,7 +7,7 @@ source: crates/rspack_testing/src/run_fixture.rs
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
-  K: function() { return answer; }
+  K: () => (answer)
 });
  const answer = 103330;
 }),
@@ -22,7 +22,7 @@ _lib__WEBPACK_IMPORTED_MODULE_0__/* .answer */.K;
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
-  K: function() { return /* reexport safe */ _answer__WEBPACK_IMPORTED_MODULE_0__.K; }
+  K: () => (/* reexport safe */ _answer__WEBPACK_IMPORTED_MODULE_0__.K)
 });
 /* harmony import */var _answer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./answer */"./answer.js");
 

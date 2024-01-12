@@ -7,7 +7,7 @@ source: crates/rspack_testing/src/run_fixture.rs
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
-  "default": function() { return __WEBPACK_DEFAULT_EXPORT__; }
+  "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 });
 /* harmony import */var _containers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./containers */"./src/containers/index.js");
 
@@ -30,7 +30,7 @@ __webpack_require__.es(_platform_container__WEBPACK_IMPORTED_MODULE_0__, __webpa
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
-  containers: function() { return _containers__WEBPACK_IMPORTED_MODULE_0__; }
+  containers: () => (_containers__WEBPACK_IMPORTED_MODULE_0__)
 });
 /* harmony import */var _containers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./containers */"./src/containers/containers.js");
 
@@ -40,8 +40,8 @@ __webpack_require__.d(__webpack_exports__, {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
-  PlatformProvider: function() { return PlatformProvider; },
-  usePlatform: function() { return usePlatform; }
+  PlatformProvider: () => (PlatformProvider),
+  usePlatform: () => (usePlatform)
 });
  const usePlatform = 3;
  const PlatformProvider = 1000;

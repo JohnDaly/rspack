@@ -287,7 +287,7 @@ impl<C: InitFragmentRenderContext> InitFragment<C> for HarmonyExportInitFragment
         .iter()
         .map(|s| {
           let prop = property_name(&s.0)?;
-          Ok(format!("{}: function() {{ return {}; }}", prop, s.1))
+          Ok(format!("{}: () => ({})", prop, s.1))
         })
         .collect::<Result<Vec<_>>>()?
         .join(",\n  ")
